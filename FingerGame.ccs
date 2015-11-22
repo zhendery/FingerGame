@@ -1,0 +1,52 @@
+<Solution>
+  <PropertyGroup Name="FingerGame" Version="2.3.3.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="Welcome.csd" Type="Layer" />
+        <Project Name="SelectScene.csd" Type="Layer" />
+        <Project Name="ClickMe.csd" Type="Layer" />
+        <Project Name="Slide.csd" Type="Layer" />
+        <PlistImageFolder Image="welcome.png" PListFile="welcome.plist" Name=".welcome_PList.Dir">
+          <PlistImageFile Name="blocks.png" Key="blocks.png" />
+          <PlistImageFile Name="challenge.png" Key="challenge.png" />
+          <PlistImageFile Name="title.png" Key="title.png" />
+        </PlistImageFolder>
+        <PlistImageFolder Image="all.png" PListFile="all.plist" Name=".all_PList.Dir">
+          <PlistImageFile Name="arrow.png" Key="arrow.png" />
+          <PlistImageFile Name="background.png" Key="background.png" />
+          <PlistImageFile Name="back.png" Key="back.png" />
+          <PlistImageFile Name="pause.png" Key="pause.png" />
+        </PlistImageFolder>
+        <PlistImageFolder Image="select.png" PListFile="select.plist" Name=".select_PList.Dir">
+          <PlistImageFile Name="clickme.png" Key="clickme.png" />
+          <PlistImageFile Name="comming.png" Key="comming.png" />
+          <PlistImageFile Name="different.png" Key="different.png" />
+          <PlistImageFile Name="frame.png" Key="frame.png" />
+          <PlistImageFile Name="slide.png" Key="slide.png" />
+          <PlistImageFile Name="unknown.png" Key="unknown.png" />
+          <PlistImageFile Name="A.png" Key="A.png" />
+          <PlistImageFile Name="B.png" Key="B.png" />
+          <PlistImageFile Name="C.png" Key="C.png" />
+          <PlistImageFile Name="s.png" Key="s.png" />
+        </PlistImageFolder>
+        <Image Name="arrow.png" />
+        <Image Name="block.png" />
+        <TTF Name="consolab.ttf" />
+        <Image Name="slideBack.jpg" />
+        <Project Name="buttons.csd" Type="Layer" />
+        <Project Name="lose.csd" Type="Layer" />
+        <PlistImageFolder Image="lose.png" PListFile="lose.plist" Name=".lose_PList.Dir">
+          <PlistImageFile Name="back.jpg" Key="back.jpg" />
+          <PlistImageFile Name="home.png" Key="home.png" />
+          <PlistImageFile Name="reset.png" Key="reset.png" />
+        </PlistImageFolder>
+        <PlistImageFolder Image="pause.png" PListFile="pause.plist" Name=".pause_PList.Dir">
+          <PlistImageFile Name="pauseBack.png" Key="pauseBack.png" />
+          <PlistImageFile Name="resume.png" Key="resume.png" />
+        </PlistImageFolder>
+        <Project Name="pauseLayer.csd" Type="Layer" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
